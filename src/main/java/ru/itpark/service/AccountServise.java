@@ -19,16 +19,16 @@ public class AccountServise {
 
         Account sender = repocitory.findById(senderID);
         if (sender == null) {
-            return;
+
         }
 
         if (sender.getBalance() < amount) {
-            return;
+
         }
 
         Account recipient = repocitory.findById (repocitory)
                 if (repository ==  null) {
-                    return;
+
                 }
 
                 sender.setBalance(sender.getBalance()-amount);
